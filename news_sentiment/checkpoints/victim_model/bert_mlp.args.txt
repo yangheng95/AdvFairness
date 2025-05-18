@@ -1,0 +1,41 @@
+model: <class 'pyabsa.tasks.FairnessAttackClassification.models.__plm__.bert.BERT_MLP'>
+optimizer: adamw
+learning_rate: 2e-05
+patience: 99999
+cache_dataset: False
+warmup_step: -1
+pretrained_bert: bert-base-uncased
+max_seq_len: 80
+l2reg: 1e-06
+num_epoch: 5
+batch_size: 16
+seed: 52
+output_dim: 2
+log_step: 357
+evaluate_begin: 0
+cross_validate_fold: -1
+use_amp: False
+verbose: True
+dataset: news_sentiment
+checkpoint_save_mode: 1
+auto_device: True
+path_to_save: None
+load_aug: False
+device: cuda:0
+device_name: NVIDIA GeForce RTX 4090
+model_name: bert_mlp
+hidden_dim: 768
+PyABSAVersion: 2.3.5
+TransformersVersion: 4.33.1
+TorchVersion: 2.0.0+cu118+cuda11.8
+dataset_name: custom_dataset
+save_mode: 1
+logger: <Logger bert_mlp (INFO)>
+task_code: TC
+task_name: Text Classification
+dataset_file: {'train': ['integrated_datasets/tc_datasets/news_sentiment/train.dat'], 'test': ['integrated_datasets/tc_datasets/news_sentiment/test.dat'], 'valid': ['integrated_datasets/tc_datasets/news_sentiment/valid.dat']}
+model_path_to_save: checkpoints
+index_to_label: {0: '0', 1: '1'}
+inputs_cols: ['author_indices', 'news_indices']
+metrics_of_this_checkpoint: {'acc': 0.9033816425120773, 'f1': 0.8896588486140726}
+max_test_metrics: {'max_test_acc': 0.9033816425120773, 'max_test_f1': 0.8896588486140726}
