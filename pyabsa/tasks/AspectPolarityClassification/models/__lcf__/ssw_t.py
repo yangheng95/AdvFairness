@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # file: ssw_s.py
-# author: YANG, HENG <hy345@exeter.ac.uk> (杨恒)
+# author: YANG, HENG <hy345@exeter.ac.uk> 
 # Copyright (C) 2021. All Rights Reserved.
 
 import torch
@@ -11,7 +11,7 @@ from pyabsa.networks.sa_encoder import Encoder
 
 # -*- coding: utf-8 -*-
 # file: ssw_s.py
-# author: YANG, HENG <hy345@exeter.ac.uk> (杨恒)
+# author: YANG, HENG <hy345@exeter.ac.uk> 
 # Copyright (C) 2021. All Rights Reserved.
 
 import torch

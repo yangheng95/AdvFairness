@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # file: FAST_LSA_S_V2.py
-# author: YANG, HENG <hy345@exeter.ac.uk> (杨恒)
+# author: YANG, HENG <hy345@exeter.ac.uk> 
 # Copyright (C) 2021. All Rights Reserved.
 import torch
 import torch.nn as nn

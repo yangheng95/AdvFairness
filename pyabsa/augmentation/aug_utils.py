@@ -1,7 +1,7 @@
 ﻿# -*- coding: utf-8 -*-
 # file: utils.py
 # time: 15:04 2022/12/31
-# author: YANG, HENG <hy345@exeter.ac.uk> (杨恒)
+# author: YANG, HENG <hy345@exeter.ac.uk> 
 # github: https://github.com/yangheng95
 # huggingface: https://huggingface.co/yangheng
 # google scholar: https://scholar.google.com/citations?user=NPq5a_0AAAAJ&hl=en

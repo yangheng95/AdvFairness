@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # file: fast_lcf_atepc.py
 # time: 2021/6/20
-# author: YANG, HENG <hy345@exeter.ac.uk> (杨恒)
+# author: YANG, HENG <hy345@exeter.ac.uk> 
 # github: https://github.com/yangheng95
 # Copyright (C) 2021. All Rights Reserved.
 
