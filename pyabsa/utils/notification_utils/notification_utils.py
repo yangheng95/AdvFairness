@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # file: notification_utils.py
 # time: 05/11/2022 23:38
-# author: YANG, HENG <hy345@exeter.ac.uk> 
+# author: YANG, HENG
 # github: https://github.com/yangheng95
 # GScholar: https://scholar.google.com/citations?user=NPq5a_0AAAAJ&hl=en
 # ResearchGate: https://www.researchgate.net/profile/Heng-Yang-17/research

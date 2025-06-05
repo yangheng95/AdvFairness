@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # file: rna_classifier.py
-# author: YANG, HENG <hy345@exeter.ac.uk> 
+# author: YANG, HENG 
 # Copyright (C) 2020. All Rights Reserved.
 import json
 import os

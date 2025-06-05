@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # file: train.py
 # time: 11:30 2023/3/13
-# author: YANG, HENG <hy345@exeter.ac.uk> 
+# author: YANG, HENG
 # github: https://github.com/yangheng95
 # huggingface: https://huggingface.co/yangheng
 # google scholar: https://scholar.google.com/citations?user=NPq5a_0AAAAJ&hl=en

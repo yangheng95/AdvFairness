@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # file: process_raw.py
 # time: 14:10 03/11/2023
-# author: YANG, HENG <hy345@exeter.ac.uk> 
+# author: YANG, HENG  
 # github: https://github.com/yangheng95
 # huggingface: https://huggingface.co/yangheng
 # google scholar: https://scholar.google.com/citations?user=NPq5a_0AAAAJ&hl=en

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # file: apc_utils.py
 # time: 2021/5/23 0023
-# author: YANG, HENG <hy345@exeter.ac.uk> 
+# author: YANG, HENG 
 # github: https://github.com/yangheng95
 # Copyright (C) 2021. All Rights Reserved.
 

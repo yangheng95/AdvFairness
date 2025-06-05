@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # file: test_train_atepc.py
 # time: 2021/5/26 0026
-# author: YANG, HENG <hy345@exeter.ac.uk> 
+# author: YANG, HENG
 # github: https://github.com/yangheng95
 # Copyright (C) 2021. All Rights Reserved.
 

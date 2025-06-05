@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # file: dataset_manager.py
 # time: 2021/6/8 0008
-# author: YANG, HENG <hy345@exeter.ac.uk> 
+# author: YANG, HENG 
 # github: https://github.com/yangheng95
 # Copyright (C) 2021. All Rights Reserved.
 
