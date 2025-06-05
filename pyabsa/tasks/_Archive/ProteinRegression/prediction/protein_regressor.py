@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # file: protein_regressor.py
-# author: YANG, HENG
+
 # Copyright (C) 2020. All Rights Reserved.
 import json
 import os

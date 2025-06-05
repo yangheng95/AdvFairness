@@ -1,11 +1,7 @@
 # -*- coding: utf-8 -*-
 # file: checkpoint_template.py
 # time: 02/11/2022 15:44
-# author: YANG, HENG
-# github: https://github.com/yangheng95
-# GScholar: https://scholar.google.com/citations?user=NPq5a_0AAAAJ&hl=en
-# ResearchGate: https://www.researchgate.net/profile/Heng-Yang-17/research
-# Copyright (C) 2022. All Rights Reserved.
+
 
 from argparse import Namespace
 from pyabsa.framework.configuration_class.config_verification import config_check

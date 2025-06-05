@@ -1,11 +1,4 @@
-# -*- coding: utf-8 -*-
-# file: train_victim_model.py
-# time: 12:35 06/11/2023
-# author: YANG, HENG  
-# github: https://github.com/yangheng95
-# huggingface: https://huggingface.co/yangheng
-# google scholar: https://scholar.google.com/citations?user=NPq5a_0AAAAJ&hl=en
-# Copyright (C) 2019-2023. All Rights Reserved.
+
 
 import pyabsa.tasks.FairnessAttackClassification as TC
 

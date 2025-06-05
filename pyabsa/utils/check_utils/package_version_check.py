@@ -1,11 +1,7 @@
 # -*- coding: utf-8 -*-
 # file: package_version_check.py
 # time: 02/11/2022 15:50
-# author: YANG, HENG
-# github: https://github.com/yangheng95
-# GScholar: https://scholar.google.com/citations?user=NPq5a_0AAAAJ&hl=en
-# ResearchGate: https://www.researchgate.net/profile/Heng-Yang-17/research
-# Copyright (C) 2022. All Rights Reserved.
+
 from packaging import version
 
 import requests
@@ -57,7 +53,7 @@ def query_release_notes(**kwargs):
     logger = kwargs.get("logger", None)
     try:
         release_url = (
-            "https://github.com/yangheng95/PyABSA/blob/release/release-note.json"
+            "https://github.com/ano_author/PyABSA/blob/release/release-note.json"
         )
         content = requests.get(release_url, timeout=5)
         release_note = content.json()
@@ -70,7 +66,7 @@ def query_release_notes(**kwargs):
     except Exception as e:
         try:
             release_url = (
-                "https://gitee.com/yangheng95/PyABSA/raw/release/release-note.json"
+                "https://gitee.com/ano_author/PyABSA/raw/release/release-note.json"
             )
             content = requests.get(release_url, timeout=5)
             release_note = content.json()

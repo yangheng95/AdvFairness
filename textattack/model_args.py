@@ -246,7 +246,7 @@ class ModelArgs:
                 args.model, color="blue", method="ansi"
             )
             textattack.shared.logger.info(
-                f"Loading pre-trained TAD model from https://github.com/yangheng95/PyABSA: {colored_model_name}"
+                f"Loading pre-trained TAD model from https://github.com/ano_author/PyABSA: {colored_model_name}"
             )
             model = TADCheckpointManager.get_tad_text_classifier(
                 checkpoint=PYABSA_MODELS[args.model], auto_device=True

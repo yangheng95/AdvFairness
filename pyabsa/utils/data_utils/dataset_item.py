@@ -1,15 +1,11 @@
 # -*- coding: utf-8 -*-
 # file: dataset_item.py
 # time: 02/11/2022 18:56
-# author: YANG, HENG
-# github: https://github.com/yangheng95
-# GScholar: https://scholar.google.com/citations?user=NPq5a_0AAAAJ&hl=en
-# ResearchGate: https://www.researchgate.net/profile/Heng-Yang-17/research
-# Copyright (C) 2022. All Rights Reserved.
+
 import os
 
 
-# To replace the class defined in https://github.com/yangheng95/PyABSA/blob/release/pyabsa/functional/dataset/dataset_manager.py#L18,
+# To replace the class defined in https://github.com/ano_author/PyABSA/blob/release/pyabsa/functional/dataset/dataset_manager.py#L18,
 # so that the inference script works on a custom dataset.
 class DatasetItem(list):
     def __init__(self, dataset_name, dataset_items=None):

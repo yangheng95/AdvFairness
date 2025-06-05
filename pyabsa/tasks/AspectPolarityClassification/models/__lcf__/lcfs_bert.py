@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 # @FileName: lcfs_bert.py
 # @Time    : 2021/6/20 9:29
-# @Author  : yangheng@m.scnu.edu.cn
-# @github  : https://github.com/yangheng95
+# @Author  : ano_author@m.scnu.edu.cn
+# @github  : https://github.com/ano_author
 # Copyright (C) 2021. All Rights Reserved.
 
 import torch

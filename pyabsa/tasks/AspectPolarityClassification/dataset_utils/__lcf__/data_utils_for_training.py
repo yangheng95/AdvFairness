@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 # file: data_utils_for_training.py
 # time: 2021/5/31 0031
-# author: YANG, HENG 
-# github: https://github.com/yangheng95
+ 
+# github: https://github.com/ano_author
 # Copyright (C) 2021. All Rights Reserved.
 import numpy as np
 import tqdm

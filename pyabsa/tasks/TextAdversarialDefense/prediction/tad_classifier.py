@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # file: text_classifier.py
-# author: YANG, HENG
+
 # Copyright (C) 2020. All Rights Reserved.
 import json
 import os
@@ -44,7 +44,7 @@ def init_attacker(tad_classifier, defense):
 
     except Exception as e:
         try:
-            os.system("pip install git+https://github.com/yangheng95/TextAttack")
+            os.system("pip install git+https://github.com/ano_author/TextAttack")
             from textattack import Attacker
             from textattack.attack_recipes import (
                 BAEGarg2019,
@@ -61,7 +61,7 @@ def init_attacker(tad_classifier, defense):
             fprint(
                 "If you need to evaluate text adversarial attack, please make sure you have installed:\n",
                 colored(
-                    "[1] pip install git+https://github.com/yangheng95/TextAttack\n",
+                    "[1] pip install git+https://github.com/ano_author/TextAttack\n",
                     "red",
                 ),
                 "and \n",

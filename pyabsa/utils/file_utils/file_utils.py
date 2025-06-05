@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 # file: file_utils.py
 # time: 2021/7/13 0020
-# author: YANG, HENG
-# github: https://github.com/yangheng95
+
+# github: https://github.com/ano_author
 # Copyright (C) 2021. All Rights Reserved.
 
 import json
@@ -371,7 +371,7 @@ def prepare_glove840_embedding(glove_path, embedding_dim, config):
             )
             try:
                 response = requests.get(
-                    "https://huggingface.co/spaces/yangheng/PyABSA-ATEPC/resolve/main/open-access/glove.840B.300d.zip",
+                    "https://huggingface.co/spaces/ano_author/PyABSA-ATEPC/resolve/main/open-access/glove.840B.300d.zip",
                     stream=True,
                 )
                 with open(zip_glove_path, "wb") as f:

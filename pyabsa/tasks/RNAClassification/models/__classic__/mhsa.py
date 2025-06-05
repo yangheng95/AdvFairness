@@ -1,11 +1,7 @@
 # -*- coding: utf-8 -*-
 # file: mhsa.py
 # time: 31/10/2022 20:00
-# author: YANG, HENG
-# github: https://github.com/yangheng95
-# GScholar: https://scholar.google.com/citations?user=NPq5a_0AAAAJ&hl=en
-# ResearchGate: https://www.researchgate.net/profile/Heng-Yang-17/research
-# Copyright (C) 2022. All Rights Reserved.
+
 import torch
 from transformers import AutoConfig
 from transformers.models.bert.modeling_bert import BertPooler

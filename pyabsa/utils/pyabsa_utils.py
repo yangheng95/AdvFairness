@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 # file: pyabsa_utils.py
 # time: 2021/5/20 0020
-# author: YANG, HENG
-# github: https://github.com/yangheng95
+
+# github: https://github.com/ano_author
 # Copyright (C) 2021. All Rights Reserved.
 import os
 import sys

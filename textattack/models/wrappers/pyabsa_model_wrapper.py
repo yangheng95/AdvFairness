@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 # file: pyabsa_model_wrapper.py
 # time: 22/06/2022
-# author: yangheng <yangheng@m.scnu.edu.cn>
-# github: https://github.com/yangheng95
+# author: ano_author <ano_author@m.scnu.edu.cn>
+# github: https://github.com/ano_author
 # Copyright (C) 2021. All Rights Reserved.
 from textattack.models.wrappers import HuggingFaceModelWrapper
 

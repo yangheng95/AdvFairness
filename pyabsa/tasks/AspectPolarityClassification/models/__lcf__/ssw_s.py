@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # file: ssw_s.py
-# author: YANG, HENG
+
 # Copyright (C) 2021. All Rights Reserved.
 
 import torch

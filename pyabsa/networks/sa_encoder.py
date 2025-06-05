@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-# file: sa_encoder.py
-# time: 2021/6/6 0006
-# author: YANG, HENG
-# github: https://github.com/yangheng95
-# Copyright (C) 2021. All Rights Reserved.
+
 import math
 
 import numpy as np

@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 # file: fast_lcf_atepc.py
 # time: 2021/6/20
-# author: YANG, HENG  
-# github: https://github.com/yangheng95
+
+# github: https://github.com/ano_author
 # Copyright (C) 2021. All Rights Reserved.
 
 

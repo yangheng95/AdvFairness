@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 # file: dataset_manager.py
 # time: 2021/6/8 0008
-# author: YANG, HENG 
-# github: https://github.com/yangheng95
+
+# github: https://github.com/ano_author
 # Copyright (C) 2021. All Rights Reserved.
 
 import os
@@ -125,8 +125,8 @@ def _detect_dataset_from_local_search(
                     " {} errored unexpectedly".format(search_path)
                 )
             # Our data augment tool can automatically improve your dataset's performance 1-2% with additional computation budget
-            # The project of data augment is on github: https://github.com/yangheng95/BoostAug
-            # share your dataset at https://github.com/yangheng95/ABSADatasets, all the copyrights belong to the owner according to the licence
+            # The project of data augment is on github: https://github.com/ano_author/BoostAug
+            # share your dataset at https://github.com/ano_author/ABSADatasets, all the copyrights belong to the owner according to the licence
 
             # For pretraining checkpoints, we use all dataset set as trainer set
             if load_aug:
@@ -242,13 +242,13 @@ def _detect_dataset_from_remote_search(
         if logger:
             logger.error(
                 "Exception: {}. Fail to download dataset from".format(e)
-                + " https://github.com/yangheng95/ABSADatasets,"
+                + " https://github.com/ano_author/ABSADatasets,"
                 + " please check your network connection."
             )
         else:
             fprint(
                 "Exception: {}. Fail to download dataset from".format(e)
-                + " https://github.com/yangheng95/ABSADatasets,"
+                + " https://github.com/ano_author/ABSADatasets,"
                 + " please check your network connection."
             )
 
@@ -277,8 +277,8 @@ def _detect_dataset_from_remote_search(
                     " {} errored unexpectedly".format(search_path)
                 )
             # Our data augment tool can automatically improve your dataset's performance 1-2% with additional computation budget
-            # The project of data augment is on github: https://github.com/yangheng95/BoostAug
-            # share your dataset at https://github.com/yangheng95/ABSADatasets, all the copyrights belong to the owner according to the licence
+            # The project of data augment is on github: https://github.com/ano_author/BoostAug
+            # share your dataset at https://github.com/ano_author/ABSADatasets, all the copyrights belong to the owner according to the licence
 
             # For pretraining checkpoints, we use all dataset set as trainer set
             if load_aug:
@@ -429,7 +429,7 @@ def detect_dataset(
             logger.info(
                 "No "
                 + dataset_name_or_path.__str__()
-                + " found in current working directory, will search dataset from https://github.com/yangheng95/ABSADatasets"
+                + " found in current working directory, will search dataset from https://github.com/ano_author/ABSADatasets"
             )
             dataset_file = _detect_dataset_from_remote_search(
                 dataset_name_or_path,
@@ -450,7 +450,7 @@ def detect_dataset(
             'Fail to locate dataset: {}. Your dataset file names should contain task code, e.g., ".apc" or ".atepc" or "tc". '
             "you may need rename your dataset according to {}".format(
                 dataset_name_or_path,
-                "https://github.com/yangheng95/ABSADatasets#important-rename-your-dataset-filename-before-use-it-in-pyabsa",
+                "https://github.com/ano_author/ABSADatasets#important-rename-your-dataset-filename-before-use-it-in-pyabsa",
             )
         )
     if len(dataset_file["test"]) == 0:
@@ -496,13 +496,13 @@ def detect_infer_dataset(
             else:
                 if logger:
                     logger.info(
-                        "Try to download {} dataset from https://github.com/yangheng95/ABSADatasets".format(
+                        "Try to download {} dataset from https://github.com/ano_author/ABSADatasets".format(
                             d
                         )
                     )
                 else:
                     fprint(
-                        "Try to download {} dataset from https://github.com/yangheng95/ABSADatasets".format(
+                        "Try to download {} dataset from https://github.com/ano_author/ABSADatasets".format(
                             d
                         )
                     )
@@ -511,12 +511,12 @@ def detect_infer_dataset(
                 except Exception as e:
                     if logger:
                         logger.error(
-                            "Fail to download dataset from https://github.com/yangheng95/ABSADatasets, please check your network connection"
+                            "Fail to download dataset from https://github.com/ano_author/ABSADatasets, please check your network connection"
                         )
                         logger.info("Try to load {} dataset from Huggingface".format(d))
                     else:
                         fprint(
-                            "Fail to download dataset from https://github.com/yangheng95/ABSADatasets, please check your network connection"
+                            "Fail to download dataset from https://github.com/ano_author/ABSADatasets, please check your network connection"
                         )
                         fprint("Try to load {} dataset from Huggingface".format(d))
                     download_dataset_by_name(
@@ -550,7 +550,7 @@ def detect_infer_dataset(
         raise RuntimeError(
             "Fail to locate dataset: {}. If you are using your own dataset, you may need rename your dataset according to {}".format(
                 dataset_name_or_path,
-                "https://github.com/yangheng95/ABSADatasets#important-rename-your-dataset-filename-before-use-it-in-pyabsa",
+                "https://github.com/ano_author/ABSADatasets#important-rename-your-dataset-filename-before-use-it-in-pyabsa",
             )
         )
     if len(dataset_name_or_path) > 1:
@@ -579,11 +579,11 @@ def download_all_available_datasets(**kwargs):
             shutil.rmtree(save_path)
             if logger:
                 logger.info(
-                    "Force download datasets from https://github.com/yangheng95/ABSADatasets"
+                    "Force download datasets from https://github.com/ano_author/ABSADatasets"
                 )
             else:
                 fprint(
-                    "Force download datasets from https://github.com/yangheng95/ABSADatasets"
+                    "Force download datasets from https://github.com/ano_author/ABSADatasets"
                 )
         else:
             if logger:
@@ -597,15 +597,15 @@ def download_all_available_datasets(**kwargs):
     with tempfile.TemporaryDirectory() as tmpdir:
         try:
             fprint(
-                "Clone ABSADatasets from https://github.com/yangheng95/ABSADatasets.git"
+                "Clone ABSADatasets from https://github.com/ano_author/ABSADatasets.git"
             )
             git.Repo.clone_from(
-                "https://github.com/yangheng95/ABSADatasets.git",
+                "https://github.com/ano_author/ABSADatasets.git",
                 tmpdir,
                 branch="v2.0",
                 depth=1,
             )
-            # git.Repo.clone_from('https://github.com/yangheng95/ABSADatasets.git', tmpdir, branch='master', depth=1)
+            # git.Repo.clone_from('https://github.com/ano_author/ABSADatasets.git', tmpdir, branch='master', depth=1)
             try:
                 shutil.move(os.path.join(tmpdir, "datasets"), "{}".format(save_path))
             except IOError as e:
@@ -613,15 +613,15 @@ def download_all_available_datasets(**kwargs):
         except Exception as e:
             try:
                 fprint(
-                    "Clone ABSADatasets from https://gitee.com/yangheng95/ABSADatasets.git"
+                    "Clone ABSADatasets from https://gitee.com/ano_author/ABSADatasets.git"
                 )
                 git.Repo.clone_from(
-                    "https://gitee.com/yangheng95/ABSADatasets.git",
+                    "https://gitee.com/ano_author/ABSADatasets.git",
                     tmpdir,
                     branch="v2.0",
                     depth=1,
                 )
-                # git.Repo.clone_from('https://github.com/yangheng95/ABSADatasets.git', tmpdir, branch='master', depth=1)
+                # git.Repo.clone_from('https://github.com/ano_author/ABSADatasets.git', tmpdir, branch='master', depth=1)
                 try:
                     shutil.move(
                         os.path.join(tmpdir, "datasets"), "{}".format(save_path)
@@ -651,7 +651,7 @@ def download_dataset_by_name(
 ):
     """
     If download all datasets failed, try to download dataset by name from Huggingface
-    Download dataset from Huggingface: https://huggingface.co/spaces/yangheng/PyABSA
+    Download dataset from Huggingface: https://huggingface.co/spaces/ano_author/PyABSA
     :param task_code: task code -> e.g., TaskCodeOption.Aspect_Polarity_Classification
     :param dataset_name: dataset name -> e.g, pyabsa.tasks.AspectPolarityClassification.APCDatasetList.Laptop14
     """

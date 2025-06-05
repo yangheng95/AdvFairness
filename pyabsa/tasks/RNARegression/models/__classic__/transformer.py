@@ -1,11 +1,7 @@
 # -*- coding: utf-8 -*-
 # file: transformer.py
 # time: 01/11/2022 12:58
-# author: YANG, HENG
-# github: https://github.com/yangheng95
-# GScholar: https://scholar.google.com/citations?user=NPq5a_0AAAAJ&hl=en
-# ResearchGate: https://www.researchgate.net/profile/Heng-Yang-17/research
-# Copyright (C) 2022. All Rights Reserved.
+
 from torch import nn
 
 

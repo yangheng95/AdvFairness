@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-# file: data_utils.py
-# time: 15/03/2023
-# author: HENG YANG
-# github: https://github.com/yangheng95
-# huggingface: https://huggingface.co/yangheng
-# google scholar: https://scholar.google.com/citations?user=NPq5a_0AAAAJ&hl=en
-# Copyright (C) 2021. All Rights Reserved.
 
 import json
 

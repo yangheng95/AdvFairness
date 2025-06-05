@@ -1,11 +1,7 @@
 # -*- coding: utf-8 -*-
 # file: dataset_version_check.py
 # time: 02/11/2022 15:51
-# author: YANG, HENG
-# github: https://github.com/yangheng95
-# GScholar: https://scholar.google.com/citations?user=NPq5a_0AAAAJ&hl=en
-# ResearchGate: https://www.researchgate.net/profile/Heng-Yang-17/research
-# Copyright (C) 2022. All Rights Reserved.
+
 
 from packaging import version
 import requests
@@ -32,12 +28,12 @@ def query_local_datasets_version(**kwargs):
 def query_remote_datasets_version(**kwargs):
     logger = kwargs.get("logger", None)
     try:
-        dataset_url = "https://raw.githubusercontent.com/yangheng95/ABSADatasets/v1.2/datasets/__init__.py"
+        dataset_url = "https://raw.githubusercontent.com/ano_author/ABSADatasets/v1.2/datasets/__init__.py"
         content = requests.get(dataset_url, timeout=5)
         remote_version = content.text.split("'")[-2]
     except Exception as e:
         try:
-            dataset_url = "https://gitee.com/yangheng95/ABSADatasets/raw/v1.2/datasets/__init__.py"
+            dataset_url = "https://gitee.com/ano_author/ABSADatasets/raw/v1.2/datasets/__init__.py"
             content = requests.get(dataset_url, timeout=5)
             remote_version = content.text.split("'")[-2]
         except Exception as e:
@@ -70,13 +66,13 @@ def check_datasets_version(**kwargs):
             if logger:
                 logger.warning(
                     "Failed to check ABSADatasets version, please"
-                    "check the latest version of ABSADatasets at https://github.com/yangheng95/ABSADatasets"
+                    "check the latest version of ABSADatasets at https://github.com/ano_author/ABSADatasets"
                 )
             else:
                 fprint(
                     colored(
                         "Failed to check ABSADatasets version, please"
-                        "check the latest version of ABSADatasets at https://github.com/yangheng95/ABSADatasets",
+                        "check the latest version of ABSADatasets at https://github.com/ano_author/ABSADatasets",
                         "red",
                     )
                 )
@@ -109,14 +105,14 @@ def check_datasets_version(**kwargs):
     except Exception as e:
         if logger:
             logger.warning(
-                "ABSADatasets version check failed: {}, please check the latest datasets at https://github.com/yangheng95/ABSADatasets manually.".format(
+                "ABSADatasets version check failed: {}, please check the latest datasets at https://github.com/ano_author/ABSADatasets manually.".format(
                     e
                 )
             )
         else:
             fprint(
                 colored(
-                    "ABSADatasets version check failed: {}, please check the latest datasets at https://github.com/yangheng95/ABSADatasets manually.".format(
+                    "ABSADatasets version check failed: {}, please check the latest datasets at https://github.com/ano_author/ABSADatasets manually.".format(
                         e
                     ),
                     "red",

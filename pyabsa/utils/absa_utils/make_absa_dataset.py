@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-# file: make_absa_dataset.py
-# time: 02/11/2022 21:40
-# author: YANG, HENG
-# github: https://github.com/yangheng95
-# GScholar: https://scholar.google.com/citations?user=NPq5a_0AAAAJ&hl=en
-# ResearchGate: https://www.researchgate.net/profile/Heng-Yang-17/research
-# Copyright (C) 2022. All Rights Reserved.
 
 import os
 
@@ -30,7 +22,6 @@ def make_ABSA_dataset(dataset_name_or_path, checkpoint="english"):
     The data in the dataset files will be plain text row by row.
 
     For obtaining the best performance, you should use DPT tool in ABSADatasets to manually annotate the dataset files,
-    which can be found in the following link: https://github.com/yangheng95/ABSADatasets/tree/v2.0/DPT.
     This tool should be downloaded and run on a browser, and is much more time-consuming.
 
     Args:

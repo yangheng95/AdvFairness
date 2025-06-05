@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 # file: lstm.py
 # time: 22/10/2022 17:33
-# author: YANG, HENG
-# github: https://github.com/yangheng95
+
+# github: https://github.com/ano_author
 # GScholar: https://scholar.google.com/citations?user=NPq5a_0AAAAJ&hl=en
 # ResearchGate: https://www.researchgate.net/profile/Heng-Yang-17/research
 # Copyright (C) 2021. All Rights Reserved.

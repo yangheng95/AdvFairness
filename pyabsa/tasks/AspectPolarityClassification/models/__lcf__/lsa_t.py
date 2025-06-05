@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # file: lsa_t.py
-# author: YANG, HENG  
+
 # Copyright (C) 2021. All Rights Reserved.
 import copy
 

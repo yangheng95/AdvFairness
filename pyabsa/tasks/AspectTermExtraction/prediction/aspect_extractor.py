@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 # file: aspect_term_extraction.py
 # time: 2021/5/26 0026
-# author: YANG, HENG 
-# github: https://github.com/yangheng95
+
+# github: https://github.com/ano_author
 # Copyright (C) 2021. All Rights Reserved.
 
 import json

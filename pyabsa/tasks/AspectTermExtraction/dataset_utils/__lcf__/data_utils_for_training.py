@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 # file: data_utils_for_training.py
 # time: 2021/5/27 0027
-# author: YANG, HENG
-# github: https://github.com/yangheng95
+
+# github: https://github.com/ano_author
 # Copyright (C) 2021. All Rights Reserved.
 
 import tqdm
@@ -113,7 +113,7 @@ def readfile(filename):
     prepared_data = []
     for s, t, p in data:
         if len(s) > 0:
-            # prepare the atepc dataset, refer to https://github.com/yangheng95/PyABSA/issues/78
+            # prepare the atepc dataset, refer to https://github.com/ano_author/PyABSA/issues/78
             polarity_padding = [str(LabelPaddingOption.SENTIMENT_PADDING)] * len(t)
 
             if len(Labels) > 3:

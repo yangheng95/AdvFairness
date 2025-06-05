@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-# file: local_sentiment_aggregation.py
-# time: 06/06/2022
-# author: YANG, HENG  
-# github: https://github.com/yangheng95
-# Copyright (C) 2021. All Rights Reserved.
+
 import torch
 from pyabsa.networks.sa_encoder import Encoder
 from torch import nn

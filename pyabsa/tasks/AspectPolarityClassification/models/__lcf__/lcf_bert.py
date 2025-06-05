@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # file: lcf_bert.py
-# author: YANG, HENG
+
 # Copyright (C) 2019. All Rights Reserved.
 
 import torch

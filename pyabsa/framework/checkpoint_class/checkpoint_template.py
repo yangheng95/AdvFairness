@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-# file: checkpoint_template.py
-# time: 2021/6/11 0011
-# author: YANG, HENG 
-# github: https://github.com/yangheng95
-# Copyright (C) 2021. All Rights Reserved.
 
 
 import os

@@ -1,11 +1,8 @@
 ﻿# -*- coding: utf-8 -*-
 # file: wrappers.py
 # time: 17:58 2023/1/7
-# author: YANG, HENG
-# github: https://github.com/yangheng95
-# huggingface: https://huggingface.co/yangheng
-# google scholar: https://scholar.google.com/citations?user=NPq5a_0AAAAJ&hl=en
-# Copyright (C) 2021. All Rights Reserved.
+
+
 
 
 from multiprocessing import Process, Pipe

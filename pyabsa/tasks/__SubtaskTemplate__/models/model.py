@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # file: bert_base.py
-# author: YANG, HENG
+
 # Copyright (C) 2020. All Rights Reserved.
 
 import torch.nn as nn

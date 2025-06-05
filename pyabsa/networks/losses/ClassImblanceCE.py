@@ -1,11 +1,8 @@
 ﻿# -*- coding: utf-8 -*-
 # file: ClassImblanceCE.py
 # time: 14:20 2022/12/23
-# author: YANG, HENG
-# github: https://github.com/yangheng95
-# huggingface: https://huggingface.co/yangheng
-# google scholar: https://scholar.google.com/citations?user=NPq5a_0AAAAJ&hl=en
-# Copyright (C) 2021. All Rights Reserved.
+
+
 import numpy as np
 import torch
 from torch import nn

@@ -1,11 +1,7 @@
 # -*- coding: utf-8 -*-
 # file: dataset_list.py
 # time: 02/11/2022 19:35
-# author: YANG, HENG 
-# github: https://github.com/yangheng95
-# GScholar: https://scholar.google.com/citations?user=NPq5a_0AAAAJ&hl=en
-# ResearchGate: https://www.researchgate.net/profile/Heng-Yang-17/research
-# Copyright (C) 2022. All Rights Reserved.
+
 
 from pyabsa.utils.data_utils.dataset_item import DatasetItem
 
@@ -100,7 +96,7 @@ class APCDatasetList(list):
         ],
     )
 
-    # Abandon rest15 dataset due to data leakage, See https://github.com/yangheng95/PyABSA/issues/53
+    # Abandon rest15 dataset due to data leakage, See https://github.com/ano_author/PyABSA/issues/53
     SemEval = DatasetItem(
         "SemEval", ["113.Laptop14", "114.Restaurant14", "116.Restaurant16"]
     )

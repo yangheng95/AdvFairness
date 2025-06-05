@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-# file: lcf_pooler.py
-# time: 2021/6/29
-# author: YANG, HENG
-# github: https://github.com/yangheng95
-# Copyright (C) 2021. All Rights Reserved.
+
 import numpy
 import torch
 import torch.nn as nn

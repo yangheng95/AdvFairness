@@ -1,11 +1,7 @@
 # -*- coding: utf-8 -*-
 # file: apc_augment.py
 # time: 02/11/2022 19:51
-# author: YANG, HENG
-# github: https://github.com/yangheng95
-# GScholar: https://scholar.google.com/citations?user=NPq5a_0AAAAJ&hl=en
-# ResearchGate: https://www.researchgate.net/profile/Heng-Yang-17/research
-# Copyright (C) 2022. All Rights Reserved.
+
 import os
 import sys
 
@@ -38,7 +34,7 @@ def auto_aspect_sentiment_classification_augmentation(
         rewrite_cache: bool = True,
 ) -> None:
     """
-    Augment the dataset using BoostTextAugmentation tool (https://github.com/yangheng95/BoostTextAugmentation) for aspect
+    Augment the dataset using BoostTextAugmentation tool (https://github.com/ano_author/BoostTextAugmentation) for aspect
     sentiment classification.
 
     Args:
@@ -66,7 +62,7 @@ def auto_aspect_sentiment_classification_augmentation(
     fprint(
         colored(
             "The augment tool is available at: {}".format(
-                "https://github.com/yangheng95/BoostTextAugmentation"
+                "https://github.com/ano_author/BoostTextAugmentation"
             ),
             "yellow",
         )
